@@ -1,50 +1,65 @@
-export const TAB = 9;
-export const ENTER = 13;
-export const SHIFT = 16;
-export const CTRL = 17;
-export const ALT = 18;
-export const ESC = 27;
-export const SPACE = 32;
+const TAB = 9;
+const ENTER = 13;
+const SHIFT = 16;
+const CTRL = 17;
+const ALT = 18;
+const ESC = 27;
+const SPACE = 32;
 
-export const LEFT = 37;
-export const UP = 38;
-export const RIGHT = 39;
-export const DOWN = 40;
+const LEFT = 37;
+const UP = 38;
+const RIGHT = 39;
+const DOWN = 40;
 
-export const ZERO = 48;
-export const ONE = 49;
-export const TWO = 50;
-export const THREE = 51;
-export const FOUR = 52;
-export const FIVE = 53;
-export const SIX = 54;
-export const SEVEN = 55;
-export const EIGHT = 56;
-export const NINE = 57;
+const ZERO = 48;
+const ONE = 49;
+const TWO = 50;
+const THREE = 51;
+const FOUR = 52;
+const FIVE = 53;
+const SIX = 54;
+const SEVEN = 55;
+const EIGHT = 56;
+const NINE = 57;
 
-export const A = 65;
-export const B = 66;
-export const C = 67;
-export const D = 68;
-export const E = 69;
-export const F = 70;
-export const G = 71;
-export const H = 72;
-export const I = 73;
-export const J = 74;
-export const K = 75;
-export const L = 76;
-export const M = 77;
-export const N = 78;
-export const O = 79;
-export const P = 80;
-export const Q = 81;
-export const R = 82;
-export const S = 83;
-export const T = 84;
-export const U = 85;
-export const V = 86;
-export const W = 87;
-export const X = 88;
-export const Y = 89;
-export const Z = 90;
+const A = 65;
+const B = 66;
+const C = 67;
+const D = 68;
+const E = 69;
+const F = 70;
+const G = 71;
+const H = 72;
+const I = 73;
+const J = 74;
+const K = 75;
+const L = 76;
+const M = 77;
+const N = 78;
+const O = 79;
+const P = 80;
+const Q = 81;
+const R = 82;
+const S = 83;
+const T = 84;
+const U = 85;
+const V = 86;
+const W = 87;
+const X = 88;
+const Y = 89;
+const Z = 90;
+
+export {
+
+    // exports control keys
+    TAB, ENTER, SHIFT, CTRL, ALT, ESC, SPACE,
+
+    // exports arrow keys
+    LEFT, UP, RIGHT, DOWN,
+
+    // exports numeric keys
+    ZERO, ONE, TWO, THREE, FOUR, FIVE, SIX, SEVEN, EIGHT, NINE,
+
+    // exports alhabetic keys
+    A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
+};
